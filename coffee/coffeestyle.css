@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Noto, sans-serif, Verdana;
+    font-size: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: lavender;
+}
+
+.page{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+/*I used this tutorial by W3school for the static navigation bar https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
+.header {
+    width: 100%;
+    background-color: slategray;
+    top: 0;
+    z-index: 2;
+    margin-bottom: 1em;
+}
+.header h1 {
+    font-size: 180%;
+    margin: auto;
+    padding-top: .2em;
+    display: inline-block;
+}

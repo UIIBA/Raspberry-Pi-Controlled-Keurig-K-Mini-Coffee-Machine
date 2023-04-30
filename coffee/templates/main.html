@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script type="application/x-javascript" src="static/main.js"></script>
+    <link type="text/css" rel="stylesheet" href="static/main.css">
+</head>
+
+<body onload="init()">
+    <div>
+        <header>
+            <h1 class="text-center">Scoreboard</h1>
+                 
+        </header>
+        <div class="clockcontainer">
+            <!-- <div id="MyClockDisplay" class="clock"></div> -->
+            <div style="display:block;position:absolute;top:0px;">
+            <iframe src="static/timer.html" title="what" frameborder="0" allowtransparency="yes" scrolling="no" style="z-index:999; width:500px; height:240px; position:relative; top:15px;margin:0;padding:0;"></iframe>
+            </div>
+        </div>
+        <div class="scorecontainer">
+            <div class="flexy">
+                <button id="ball">Ball</button>
+                <button id="strike">Strike</button>
+                <button id="out">Out</button>
+            </div>
+            <div class="btncontainer">
+                <h2>Home</h2>
+                <div class="btn" id="team1">0</div>
+                <button class="scorebtn" id="homeplus">+</button>
+                <button class="scorebtn" id="homeminus">-</button>
+            </div>
+            <div id="roundcounter">
+                <button id="roundplus">+</button>
+                <div id="rounddisplay">
+                    <p>Round</p>
+                    <p id="roundnum">1</p>
+                </div>
+                <button id="roundminus">-</button>
+            </div>
+            <div>
+                <button id="clear">Clear</button>
+            </div>
+            
+            <div class="btncontainer">
+                <h2>Away</h2>
+                <div class="btn" id="team2">0</div>
+                <button class="scorebtn" id="awayplus">+</button>
+                <button class="scorebtn" id="awayminus">-</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
