@@ -13,7 +13,7 @@ start = LED(3)
 
 @app.route('/')
 def webroot():
-    return render_template('main.html')
+    return render_template('coffee.html')
 
 @app.route('/start')
 def startup():
