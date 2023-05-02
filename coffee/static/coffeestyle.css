@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Noto, sans-serif, Verdana;
+    font-size: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: lavender;
+    background-image: url("coffee1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.page{
+    margin-right: 20%;
+    margin-left: 20%;
+    border: solid;
+
+}
+.header {
+    width: 100%;
+    background-color: slategray;
+    top: 0;
+    z-index: 2;
+    margin-bottom: 1em;
+}
+.header h1 {
+    font-size: 180%;
+    margin: auto;
+    padding-top: .2em;
+    text-align: center;
+    display: block;
+}
+.start-cont{
+    text-align: center;
+    margin-top: 8%;
+} .start-cont button{
+        background-color: saddlebrown;
+        font-size: 6em;
+        padding: 20px;
+        color: navajowhite;
+        border-radius: 40px;
+  } .start-cont button:hover{
+        background-color: #793b10;
+        color: #e5c28e;
+      }
